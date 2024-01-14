@@ -1,7 +1,7 @@
 # Replace $$DEVICE$$ with your Device Name's Value. Mine is Primo_RX5.
 # Replace $$BRAND$$ with your Brand's / Manufacturer's Value, Mine is WALTON 
 
-ifneq ($(filter S11,$(TARGET_DEVICE)),)
+ifneq ($(filter S11,$(TARGET_DEVICE))S11,)
 
 LOCAL_PATH := device/ITEL/S11
 
