@@ -1,7 +1,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Otherwise, If you have 32-bit device, add the below line instead of above line
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk
-# Another common config inclusion $(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
+# Another common config inclusion
+$(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 # If you are building from OmniROM's minimal source, Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 # Replace $$DEVICE$$ with your Device Name's Value.
